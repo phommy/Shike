@@ -32,12 +32,12 @@ namespace Shike
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject13 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject14 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject15 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject16 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject17 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject18 = new DevExpress.Utils.SerializableAppearanceObject();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.productBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.layoutView1 = new DevExpress.XtraGrid.Views.Layout.LayoutView();
@@ -61,6 +61,10 @@ namespace Shike
             this.layoutViewField_layoutViewColumn8 = new DevExpress.XtraGrid.Views.Layout.LayoutViewField();
             this.layoutViewCard1 = new DevExpress.XtraGrid.Views.Layout.LayoutViewCard();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.tv = new System.Windows.Forms.TreeView();
+            this.txtJson = new System.Windows.Forms.TextBox();
+            this.txtLink = new System.Windows.Forms.TextBox();
+            this.btnLoadList = new System.Windows.Forms.Button();
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
             this.layoutView2 = new DevExpress.XtraGrid.Views.Layout.LayoutView();
             this.layoutViewColumn3 = new DevExpress.XtraGrid.Columns.LayoutViewColumn();
@@ -74,13 +78,18 @@ namespace Shike
             this.txtAllMessage = new System.Windows.Forms.TextBox();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.tabbedControlGroup1 = new DevExpress.XtraLayout.TabbedControlGroup();
+            this.tabWeb = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
+            this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
             this.splitterItem1 = new DevExpress.XtraLayout.SplitterItem();
             this.layoutControlGroup3 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.tabWeb = new DevExpress.XtraLayout.LayoutControlGroup();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.txtMessage = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -100,13 +109,13 @@ namespace Shike
             this.btnIgnoreBlack = new DevExpress.XtraBars.BarCheckItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.bar3 = new DevExpress.XtraBars.Bar();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
             this.repositoryItemButtonEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
-            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutView1)).BeginInit();
@@ -135,13 +144,18 @@ namespace Shike
             ((System.ComponentModel.ISupportInitialize)(this.btnAddToBlackList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedControlGroup1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tabWeb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitterItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tabWeb)).BeginInit();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
             this.dockPanel1.SuspendLayout();
@@ -254,7 +268,7 @@ namespace Shike
             // 
             this.btnApplyItem.AutoHeight = false;
             this.btnApplyItem.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "申请", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, "", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "申请", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject13, "", null, null, true)});
             this.btnApplyItem.Name = "btnApplyItem";
             this.btnApplyItem.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             this.btnApplyItem.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.btnApplyItem_ButtonClick);
@@ -281,7 +295,7 @@ namespace Shike
             // 
             this.btnRefuseItem.AutoHeight = false;
             this.btnRefuseItem.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "屏蔽", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject2, "", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "屏蔽", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject14, "", null, null, true)});
             this.btnRefuseItem.Name = "btnRefuseItem";
             this.btnRefuseItem.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             this.btnRefuseItem.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.btnRefuseItem_ButtonClick);
@@ -308,7 +322,7 @@ namespace Shike
             // 
             this.btnAddToWhite.AutoHeight = false;
             this.btnAddToWhite.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "白名单", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject3, "", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "白名单", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject15, "", null, null, true)});
             this.btnAddToWhite.Name = "btnAddToWhite";
             this.btnAddToWhite.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             this.btnAddToWhite.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.btnAddToWhite_ButtonClick);
@@ -335,7 +349,7 @@ namespace Shike
             // 
             this.btnAddToBlack.AutoHeight = false;
             this.btnAddToBlack.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "黑名单", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject4, "", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "黑名单", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject16, "", null, null, true)});
             this.btnAddToBlack.Name = "btnAddToBlack";
             this.btnAddToBlack.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             this.btnAddToBlack.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.btnAddToBlack_ButtonClick);
@@ -368,6 +382,10 @@ namespace Shike
             // 
             // layoutControl1
             // 
+            this.layoutControl1.Controls.Add(this.tv);
+            this.layoutControl1.Controls.Add(this.txtJson);
+            this.layoutControl1.Controls.Add(this.txtLink);
+            this.layoutControl1.Controls.Add(this.btnLoadList);
             this.layoutControl1.Controls.Add(this.gridControl2);
             this.layoutControl1.Controls.Add(this.txtAllMessage);
             this.layoutControl1.Controls.Add(this.gridControl1);
@@ -379,6 +397,41 @@ namespace Shike
             this.layoutControl1.Size = new System.Drawing.Size(687, 427);
             this.layoutControl1.TabIndex = 4;
             this.layoutControl1.Text = "layoutControl1";
+            // 
+            // tv
+            // 
+            this.tv.Location = new System.Drawing.Point(45, 145);
+            this.tv.Name = "tv";
+            this.tv.Size = new System.Drawing.Size(628, 173);
+            this.tv.TabIndex = 11;
+            this.tv.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.tv_NodeMouseClick);
+            // 
+            // txtJson
+            // 
+            this.txtJson.Location = new System.Drawing.Point(45, 83);
+            this.txtJson.Multiline = true;
+            this.txtJson.Name = "txtJson";
+            this.txtJson.Size = new System.Drawing.Size(628, 58);
+            this.txtJson.TabIndex = 9;
+            this.txtJson.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // txtLink
+            // 
+            this.txtLink.Location = new System.Drawing.Point(45, 59);
+            this.txtLink.Name = "txtLink";
+            this.txtLink.Size = new System.Drawing.Size(628, 20);
+            this.txtLink.TabIndex = 8;
+            this.txtLink.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // btnLoadList
+            // 
+            this.btnLoadList.Location = new System.Drawing.Point(14, 35);
+            this.btnLoadList.Name = "btnLoadList";
+            this.btnLoadList.Size = new System.Drawing.Size(659, 20);
+            this.btnLoadList.TabIndex = 7;
+            this.btnLoadList.Text = "加载列表";
+            this.btnLoadList.UseVisualStyleBackColor = true;
+            this.btnLoadList.Click += new System.EventHandler(this.button1_Click);
             // 
             // gridControl2
             // 
@@ -475,7 +528,7 @@ namespace Shike
             // 
             this.btnCancelApply.AutoHeight = false;
             this.btnCancelApply.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "取消", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, "", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "取消", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject17, "", null, null, true)});
             this.btnCancelApply.Name = "btnCancelApply";
             this.btnCancelApply.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             this.btnCancelApply.Click += new System.EventHandler(this.btnCancelApply_Click);
@@ -484,7 +537,7 @@ namespace Shike
             // 
             this.btnAddToBlackList.AutoHeight = false;
             this.btnAddToBlackList.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "屏蔽", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject6, "", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "屏蔽", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject18, "", null, null, true)});
             this.btnAddToBlackList.Name = "btnAddToBlackList";
             this.btnAddToBlackList.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             this.btnAddToBlackList.Click += new System.EventHandler(this.btnAddToBlackList_Click);
@@ -517,14 +570,79 @@ namespace Shike
             this.tabbedControlGroup1.CustomizationFormText = "tabbedControlGroup1";
             this.tabbedControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.tabbedControlGroup1.Name = "tabbedControlGroup1";
-            this.tabbedControlGroup1.SelectedTabPage = this.layoutControlGroup2;
-            this.tabbedControlGroup1.SelectedTabPageIndex = 0;
+            this.tabbedControlGroup1.SelectedTabPage = this.tabWeb;
+            this.tabbedControlGroup1.SelectedTabPageIndex = 2;
             this.tabbedControlGroup1.Size = new System.Drawing.Size(687, 427);
             this.tabbedControlGroup1.TabPages.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlGroup2,
             this.layoutControlGroup3,
             this.tabWeb});
             this.tabbedControlGroup1.Text = "tabbedControlGroup1";
+            // 
+            // tabWeb
+            // 
+            this.tabWeb.CustomizationFormText = "Web页面";
+            this.tabWeb.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
+            this.emptySpaceItem1,
+            this.layoutControlItem3,
+            this.layoutControlItem5,
+            this.layoutControlItem6,
+            this.layoutControlItem7});
+            this.tabWeb.Location = new System.Drawing.Point(0, 0);
+            this.tabWeb.Name = "tabWeb";
+            this.tabWeb.Size = new System.Drawing.Size(663, 382);
+            this.tabWeb.Text = "列表";
+            // 
+            // emptySpaceItem1
+            // 
+            this.emptySpaceItem1.CustomizationFormText = "emptySpaceItem1";
+            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 287);
+            this.emptySpaceItem1.Name = "emptySpaceItem1";
+            this.emptySpaceItem1.Size = new System.Drawing.Size(663, 95);
+            this.emptySpaceItem1.Text = "emptySpaceItem1";
+            this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
+            // 
+            // layoutControlItem3
+            // 
+            this.layoutControlItem3.Control = this.btnLoadList;
+            this.layoutControlItem3.CustomizationFormText = "layoutControlItem3";
+            this.layoutControlItem3.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem3.Name = "layoutControlItem3";
+            this.layoutControlItem3.Size = new System.Drawing.Size(663, 24);
+            this.layoutControlItem3.Text = "layoutControlItem3";
+            this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem3.TextToControlDistance = 0;
+            this.layoutControlItem3.TextVisible = false;
+            // 
+            // layoutControlItem5
+            // 
+            this.layoutControlItem5.Control = this.txtLink;
+            this.layoutControlItem5.CustomizationFormText = "layoutControlItem5";
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 24);
+            this.layoutControlItem5.Name = "layoutControlItem5";
+            this.layoutControlItem5.Size = new System.Drawing.Size(663, 24);
+            this.layoutControlItem5.Text = " 网址";
+            this.layoutControlItem5.TextSize = new System.Drawing.Size(28, 14);
+            // 
+            // layoutControlItem6
+            // 
+            this.layoutControlItem6.Control = this.txtJson;
+            this.layoutControlItem6.CustomizationFormText = "layoutControlItem6";
+            this.layoutControlItem6.Location = new System.Drawing.Point(0, 48);
+            this.layoutControlItem6.Name = "layoutControlItem6";
+            this.layoutControlItem6.Size = new System.Drawing.Size(663, 62);
+            this.layoutControlItem6.Text = "Json";
+            this.layoutControlItem6.TextSize = new System.Drawing.Size(28, 14);
+            // 
+            // layoutControlItem7
+            // 
+            this.layoutControlItem7.Control = this.tv;
+            this.layoutControlItem7.CustomizationFormText = "layoutControlItem7";
+            this.layoutControlItem7.Location = new System.Drawing.Point(0, 110);
+            this.layoutControlItem7.Name = "layoutControlItem7";
+            this.layoutControlItem7.Size = new System.Drawing.Size(663, 177);
+            this.layoutControlItem7.Text = " 列表";
+            this.layoutControlItem7.TextSize = new System.Drawing.Size(28, 14);
             // 
             // layoutControlGroup2
             // 
@@ -535,7 +653,7 @@ namespace Shike
             this.splitterItem1});
             this.layoutControlGroup2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup2.Name = "layoutControlGroup2";
-            this.layoutControlGroup2.Size = new System.Drawing.Size(863, 382);
+            this.layoutControlGroup2.Size = new System.Drawing.Size(663, 382);
             this.layoutControlGroup2.Text = "待申请列表";
             // 
             // layoutControlItem1
@@ -572,13 +690,13 @@ namespace Shike
             // 
             // layoutControlGroup3
             // 
-            this.layoutControlGroup3.CustomizationFormText = "历史提示消息";
+            this.layoutControlGroup3.CustomizationFormText = "历史提示消息1";
             this.layoutControlGroup3.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem2});
             this.layoutControlGroup3.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup3.Name = "layoutControlGroup3";
-            this.layoutControlGroup3.Size = new System.Drawing.Size(863, 382);
-            this.layoutControlGroup3.Text = "历史提示消息";
+            this.layoutControlGroup3.Size = new System.Drawing.Size(663, 382);
+            this.layoutControlGroup3.Text = "历史提示消息1";
             // 
             // layoutControlItem2
             // 
@@ -591,15 +709,6 @@ namespace Shike
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextToControlDistance = 0;
             this.layoutControlItem2.TextVisible = false;
-            // 
-            // tabWeb
-            // 
-            this.tabWeb.CustomizationFormText = "Web页面";
-            this.tabWeb.Location = new System.Drawing.Point(0, 0);
-            this.tabWeb.Name = "tabWeb";
-            this.tabWeb.Size = new System.Drawing.Size(663, 382);
-            this.tabWeb.Text = "Web页面";
-            this.tabWeb.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             // 
             // statusStrip1
             // 
@@ -784,6 +893,13 @@ namespace Shike
             this.barButtonItem3.Name = "barButtonItem3";
             this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
+            // barButtonItem4
+            // 
+            this.barButtonItem4.Caption = "test";
+            this.barButtonItem4.Id = 22;
+            this.barButtonItem4.Name = "barButtonItem4";
+            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
+            // 
             // bar3
             // 
             this.bar3.BarName = "Status bar";
@@ -832,13 +948,6 @@ namespace Shike
             this.repositoryItemButtonEdit1.Name = "repositoryItemButtonEdit1";
             this.repositoryItemButtonEdit1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             // 
-            // barButtonItem4
-            // 
-            this.barButtonItem4.Caption = "test";
-            this.barButtonItem4.Id = 22;
-            this.barButtonItem4.Name = "barButtonItem4";
-            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
-            // 
             // 试客联盟
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -852,7 +961,7 @@ namespace Shike
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
             this.Name = "试客联盟";
-            this.Text = "Form1";
+            this.Text = "Form1SK";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.试客联盟_FormClosing);
             this.Load += new System.EventHandler(this.试客联盟_Load);
@@ -884,13 +993,18 @@ namespace Shike
             ((System.ComponentModel.ISupportInitialize)(this.btnAddToBlackList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedControlGroup1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tabWeb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitterItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tabWeb)).EndInit();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).EndInit();
@@ -975,6 +1089,15 @@ namespace Shike
         private DevExpress.XtraBars.BarButtonItem barButtonItem2;
         private DevExpress.XtraBars.BarButtonItem barButtonItem3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem4;
+        private System.Windows.Forms.Button btnLoadList;
+        private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
+        private System.Windows.Forms.TextBox txtJson;
+        private System.Windows.Forms.TextBox txtLink;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem5;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem6;
+        private System.Windows.Forms.TreeView tv;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem7;
     }
 }
 
